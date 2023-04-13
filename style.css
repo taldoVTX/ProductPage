@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 5px 5px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    background-color: hsl(30, 38%, 92%);
+}
+.productimg{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 140px 450px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+.imgperfume{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+.arrumando{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+}
+.texto1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+    color: hsl(228, 12%, 48%);
+    background-color: hsl(0, 0%, 100%);
+}
+.texto3{
+
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    background-color: hsl(0, 0%, 100%);
+}
+.texto2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: hsl(212, 21%, 14%);
+    background-color: hsl(0, 0%, 100%);
+}
+.corfundo{
+    background-color: hsl(0, 0%, 100%);
+}
+.botao{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: 0;
+    background-color: green;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+}
