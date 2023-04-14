@@ -26,27 +26,19 @@ main{
     height: 38rem;
     border-radius: 1rem;
     background-color: hsl(0, 0%, 100%);
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .imagens{
     width: 100%;
 }
-.produc-info{
+.product-info{
     padding: 1rem;
-    color: hsl(228, 12%, 48%);;
-}
-.test{
-    display: flex;
-    flex-direction: column;
-    /* margin-left: 10px; expreme o texto no centro*/
-    background-color: hsl(0, 0%, 100%);
-}
-.texto1{
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 15px;
     color: hsl(228, 12%, 48%);
-    background-color: hsl(0, 0%, 100%);
+}
+.category{
+    font-size: 0.75rem;
+    letter-spacing: 0.35rem;
+    opacity: 0.5;
 }
 .texto3{
     text-align: left;
@@ -55,14 +47,10 @@ main{
     color: hsl(228, 12%, 48%);
     background-color: hsl(0, 0%, 100%);
 }
-.texto2{
-    display: flex;
-    flex-wrap: wrap;
+.product-name{
+    margin-top: 0.5rem;
     font-family: 'Fraunces', serif;
-    text-align: left;
-    font-size: 30px;
     color: hsl(212, 21%, 14%);
-    background-color: hsl(0, 0%, 100%);
 }
 .preco{
     display: flex;
