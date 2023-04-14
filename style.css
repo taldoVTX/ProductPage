@@ -28,16 +28,12 @@ main{
     background-color: hsl(0, 0%, 100%);
     overflow: hidden;
 }
-.imgperfume{
-    padding: 0px;
-    margin: 0px;
-    border-radius: 10px;
+.imagens{
+    width: 100%;
 }
-.textos{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    background-color: hsl(0, 0%, 100%);
+.produc-info{
+    padding: 1rem;
+    color: hsl(228, 12%, 48%);;
 }
 .test{
     display: flex;
