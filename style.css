@@ -1,16 +1,29 @@
 *{
-    padding: 0;
-    margin: 5px 5px;
     box-sizing: border-box;
-    text-align: center;
-    text-decoration: none;
-    background-color: hsl(30, 38%, 92%);
 }
-.productimg{
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    width: 100vw;
+}
+.product-card{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin: 140px 450px;
+    margin: 140px 400px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -19,44 +32,73 @@
     margin: 0px;
     border-radius: 10px;
 }
-.arrumando{
+.textos{
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 10px; expreme o texto no centro*/
     background-color: hsl(0, 0%, 100%);
 }
 .texto1{
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 14px;
-
+    text-align: left;
+    margin-bottom: 15px;
     color: hsl(228, 12%, 48%);
     background-color: hsl(0, 0%, 100%);
 }
 .texto3{
-
+    text-align: left;
+    margin: 20px 0px;
     font-weight: 500;
-    font-size: 14px;
     color: hsl(228, 12%, 48%);
     background-color: hsl(0, 0%, 100%);
 }
 .texto2{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     font-family: 'Fraunces', serif;
+    text-align: left;
     font-size: 30px;
     color: hsl(212, 21%, 14%);
+    background-color: hsl(0, 0%, 100%);
+}
+.preco{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    margin: 17px 0px;
+}
+.preco1{
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color: hsl(158, 36%, 37%);
+    margin-left: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.preco2{
+    text-decoration: line-through; /* efeito linha cortada */
+    font-size: 17px;
+    margin: 15px;
+    color: hsl(228, 12%, 48%);
     background-color: hsl(0, 0%, 100%);
 }
 .corfundo{
     background-color: hsl(0, 0%, 100%);
 }
 .botao{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     border: 0;
-    background-color: green;
+    background-color: rgb(18, 191, 121);
     border-radius: 10px;
-    height: 40px;
-    width: 250px;
+    height: 45px;
+    width: 252px;
+}
+.carrinhoimg{
+    background-color: rgb(18, 191, 121);
 }
