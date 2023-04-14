@@ -21,11 +21,12 @@ main{
 }
 .product-card{
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin: 140px 400px;
-    border-radius: 10px;
+    flex-direction: column;
+    width: 20rem;
+    height: 38rem;
+    border-radius: 1rem;
     background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
 }
 .imgperfume{
     padding: 0px;
